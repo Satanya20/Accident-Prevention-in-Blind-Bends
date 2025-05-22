@@ -1,8 +1,4 @@
-# Accident Prevention System in Blind Bends
-
 A microcontroller-based safety system designed to prevent vehicle collisions on blind bends (curves with limited visibility). This project uses ultrasonic sensors and NRF24L01 wireless modules to detect approaching vehicles from either side of a bend and control traffic signals to alert drivers in real time.
-
-
 
 ## Project Objectives
 
@@ -10,8 +6,6 @@ A microcontroller-based safety system designed to prevent vehicle collisions on 
 - Wirelessly communicate vehicle presence between two ends of the bend.
 - Trigger **traffic lights** to notify drivers and prevent head-on collisions.
 - Simulate and validate the system in **Proteus** before physical implementation.
-
-
 
 ## Technologies Used
 
@@ -21,7 +15,6 @@ A microcontroller-based safety system designed to prevent vehicle collisions on 
 - **Wireless Module**: NRF24L01 (2.4GHz RF transceiver)
 - **Sensors**: HC-SR04 Ultrasonic Distance Sensor
 - **Indicators**: LEDs or Traffic Light Model
-
 
 
 ## Key Features
@@ -43,7 +36,7 @@ A microcontroller-based safety system designed to prevent vehicle collisions on 
 
 
 ## System Workflow
-
+```text
 Vehicle A Detected at Side A
             ↓
 Signal Sent via NRF24L01 to Side B
